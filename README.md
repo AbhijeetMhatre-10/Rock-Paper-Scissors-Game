@@ -38,9 +38,7 @@ A responsive and interactive Rock Paper Scissors game built using **HTML**, **CS
 ---
 
 ## 📸 Screenshot  
-> *(Insert Screenshot Here)*  
-> You can upload the screenshot and add the markdown like:  
-> `![Screenshot](screenshot.png)`
+![Screenshot](https://i.ibb.co/mVnjsXWm/Screenshot-2025-07-11-234859.png)
 
 ---
 
