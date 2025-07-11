@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper Scissors by dodo</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/480b506778.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Rock Paper Scissors</h1>
+            <button id="theme-toggle"><i class="fas fa-moon"></i></button>
+        </header>
+
+        <div class="choices">
+            <button onclick="playGame('rock')">✊ Rock</button>
+            <button onclick="playGame('paper')">✋ Paper</button>
+            <button onclick="playGame('scissors')">✌️ Scissors</button>
+        </div>
+
+        <div class="result">
+            <p id="player-choice">You chose: </p>
+            <p id="computer-choice">Computer chose: </p>
+            <h2 id="winner">Result: </h2>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
